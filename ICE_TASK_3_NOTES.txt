@@ -1,0 +1,23 @@
+ICE Task 3 - SSO Sign-In Demo
+
+Included features:
+- Professional sign-in screen with app logo, title and welcome message.
+- Email address input.
+- Empty-email validation.
+- Invalid-email validation.
+- Working Continue with SSO flow for the base demo.
+- Progress indicator during simulated SSO authentication.
+- Successful navigation to WelcomeActivity.
+- Signed-in email displayed on the Welcome screen.
+- Sign Out returns to SigninActivity and clears the activity stack.
+- Google and Microsoft buttons remain visible and provide user feedback, as required by the UI specification.
+- No Firebase dependency and no google-services.json requirement.
+
+BlueStacks test:
+1. Open the project in Android Studio.
+2. Let Gradle sync finish.
+3. Select BlueStacks as the running device.
+4. Run the app.
+5. Test empty email, invalid email, then a valid email such as student@example.com.
+6. Press Continue with SSO. The Welcome screen should open.
+7. Press Sign Out. The app should return to the sign-in screen.
